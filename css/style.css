@@ -1,0 +1,134 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+#title{
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+.btn.btn-primary
+{
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+.btn.btn-primary:hover
+{
+  background-color:#d3d4d5;
+  color: black;
+  border-color: white;
+}
+/* Styles for the button in its normal state */
+.btn.btn-outline-secondary {
+  background-color: transparent;
+  color: white;
+ border-color: white !important;
+}
+
+/* Styles for the button when hovered over */
+.btn.btn-outline-secondary:hover {
+  background-color: white !important;
+  color: black !important;
+ 
+ 
+}
+
+#testimonial h2{
+  text-align: center;
+  padding-bottom: 3vh;
+  
+}
+.dog{
+  border-radius: 50%;
+  height:100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  margin: 0 auto;
+
+  
+}
+#testimonial p{
+  text-align: center;
+}
+#testimonial{
+  padding: 7vh;
+  margin-bottom: 7vh;
+  background-color:#f8f9fa ;
+}
+.container.text-center{
+  margin-top: 5vh;
+}
+#pricing h2{
+  text-align: center;
+
+}
+#pricing p{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  text-align: center;
+  
+}
+#pricing .btn-outline-primary{
+  color: black;
+  border-color: black;
+  
+  }
+  #pricing .btn-outline-primary:hover {
+    background-color: black;
+    color: white;
+  }
+#pricing .btn-primary{
+background-color: black;
+border-color: black;
+color: white;
+}
+#pricing .btn-primary:hover{
+  background-color: #424649;
+  border-color: #424649;
+  }
+
+  
+  .card.mb-4.rounded-3.shadow-sm.border-primary {
+    /* Your CSS styles for elements with these class names go here */
+    border-color: black !important;
+  }
+  .text-bg-primary {
+    background-color: black !important;
+    }
+    #footer{
+      background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+      background-size: 180% 180%;
+      animation: gradient-animation 18s ease infinite;
+      
+    }
+    .row.row-cols-1.row-cols-sm-2.row-cols-md-5.py-5.my-5.border-top {
+      /* Your CSS styles for elements with these class names go here */
+    margin-bottom: 0px !important;
+    }
+    
